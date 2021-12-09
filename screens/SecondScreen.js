@@ -17,6 +17,7 @@ export default function SecondScreen({navigation}) {
     <View>
       <Text style={styles.textRow} >Esta es la segunda pantalla!</Text>
       <Button title="Siguiente pantalla" onPress={()=> avanzarTres()}/>
+      <Text><br></br></Text>
       <Button title="Anterior Pantalla" onPress={()=> volverUno()}/>
     </View>
   );
